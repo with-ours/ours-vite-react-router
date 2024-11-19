@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "types": [],
+    "esModuleInterop": true,
+    "jsx": "react",
+    "strictNullChecks": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*", "codegen.ts", "vite.config.mts"]
+}
