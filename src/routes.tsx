@@ -1,10 +1,11 @@
 import React from "react";
 import { type RouteObject } from "react-router-dom";
+import HomePage from "./pages/index";
 
 export const routes: RouteObject[] = [
   {
     hydrateFallbackElement: <div />,
-    element: <div>Hello World</div>,
+    element: <HomePage />,
     path: "*",
   },
 ];
