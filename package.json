@@ -6,8 +6,8 @@
     "dev": "vite --open --host"
   },
   "devDependencies": {
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/react": "18.3.24",
+    "@types/react-dom": "18.3.7",
     "@vitejs/plugin-react": "5.0.2",
     "prettier": "3.6.2",
     "typescript": "5.9.3",
