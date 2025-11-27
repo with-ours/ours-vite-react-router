@@ -6,8 +6,8 @@
     "dev": "vite --open --host"
   },
   "devDependencies": {
-    "@types/react": "18.3.24",
-    "@types/react-dom": "18.3.7",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
     "@vitejs/plugin-react": "5.0.2",
     "prettier": "3.6.2",
     "typescript": "5.9.3",
@@ -16,9 +16,9 @@
     "vite-tsconfig-paths": "5.1.4"
   },
   "dependencies": {
-    "react": "18.3.1",
+    "react": "19.2.0",
     "ours-web-sdk": "0.1.9",
-    "react-dom": "18.3.1",
+    "react-dom": "19.2.0",
     "react-router-dom": "6.30.2"
   }
 }
