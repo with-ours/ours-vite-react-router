@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "react": "19.2.1",
-    "ours-web-sdk": "0.1.9",
+    "ours-web-sdk": "1.0.1",
     "react-dom": "19.2.1",
     "react-router-dom": "6.30.2"
   }
