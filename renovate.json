@@ -1,6 +1,18 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended"],
-  "rangeStrategy": "pin",
-  "reviewers": ["tylerzey"]
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": ["config:recommended"],
+	"rangeStrategy": "pin",
+	"reviewers": ["tylerzey"],
+	"packageRules": [
+		{
+			"groupName": "all non-major dependencies",
+			"groupSlug": "all-minor-patch",
+			"matchUpdateTypes": ["minor", "patch", "pin", "digest"]
+		},
+		{
+			"groupName": "all major dependencies",
+			"groupSlug": "all-major",
+			"matchUpdateTypes": ["major"]
+		}
+	]
 }
