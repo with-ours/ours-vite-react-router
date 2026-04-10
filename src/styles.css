@@ -463,3 +463,184 @@ body {
 		padding-right: 2.5rem;
 	}
 }
+
+/* Navigation */
+.nav {
+	background-color: #111827;
+	border-bottom: 1px solid #1f2937;
+}
+
+.nav-inner {
+	max-width: 80rem;
+	margin: 0 auto;
+	padding: 0 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 3.5rem;
+}
+
+.nav-logo {
+	font-size: 1.125rem;
+	font-weight: 700;
+	color: #ffffff;
+}
+
+.nav-links {
+	display: flex;
+	gap: 0.25rem;
+}
+
+.nav-link {
+	color: #9ca3af;
+	text-decoration: none;
+	padding: 0.375rem 0.75rem;
+	border-radius: 0.375rem;
+	font-size: 0.875rem;
+	font-weight: 500;
+	transition:
+		color 0.15s,
+		background-color 0.15s;
+}
+
+.nav-link:hover {
+	color: #ffffff;
+	background-color: #1f2937;
+}
+
+.nav-link-active {
+	color: #ffffff;
+	background-color: #2563eb;
+}
+
+.nav-link-active:hover {
+	background-color: #1d4ed8;
+}
+
+/* Badges */
+.badge {
+	display: inline-block;
+	padding: 0.25rem 0.75rem;
+	border-radius: 9999px;
+	font-size: 0.75rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	margin-bottom: 1rem;
+}
+
+.badge-cdp {
+	background-color: #d1fae5;
+	color: #065f46;
+}
+
+.badge-cmp {
+	background-color: #dbeafe;
+	color: #1e40af;
+}
+
+.badge-integration {
+	background-color: #fef3c7;
+	color: #92400e;
+}
+
+/* Demo grid */
+.demo-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1.5rem;
+	max-width: 64rem;
+	margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+	.demo-grid {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+.demo-card {
+	background-color: #ffffff;
+	border-radius: 0.75rem;
+	padding: 1.5rem;
+	box-shadow:
+		0 1px 3px 0 rgba(0, 0, 0, 0.1),
+		0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+/* Button row */
+.button-row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.75rem;
+}
+
+/* Code blocks */
+.code-block {
+	background-color: #1f2937;
+	color: #e5e7eb;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	font-size: 0.8125rem;
+	line-height: 1.6;
+	overflow-x: auto;
+	white-space: pre;
+	font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+}
+
+/* Consent status */
+.consent-status {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.consent-category {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.5rem 0.75rem;
+	background-color: #f9fafb;
+	border-radius: 0.375rem;
+}
+
+.consent-category-name {
+	font-size: 0.875rem;
+	font-weight: 500;
+	color: #374151;
+	text-transform: capitalize;
+}
+
+.consent-badge {
+	font-size: 0.75rem;
+	font-weight: 600;
+	padding: 0.125rem 0.5rem;
+	border-radius: 9999px;
+}
+
+.consent-accepted {
+	background-color: #d1fae5;
+	color: #065f46;
+}
+
+.consent-rejected {
+	background-color: #fee2e2;
+	color: #991b1b;
+}
+
+/* Link list */
+.link-list {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+}
+
+.link-list a {
+	color: #2563eb;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.link-list a:hover {
+	text-decoration: underline;
+}
