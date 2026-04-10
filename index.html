@@ -7,9 +7,17 @@
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
       name="viewport"
     />
+    <!-- Ours CMP (Consent Management Platform) -->
+    <link rel="stylesheet" href="https://cdn.oursprivacy.com/consent.css" />
+    <script src="https://cdn.oursprivacy.com/cmp-init?token=gwdbv9jni5elz9k20g1ilpx3"></script>
+    <!-- End Ours CMP -->
+
+    <!-- Experiment SDK -->
+    <script src="https://laprise-cdn.oursprivacy.com/experiment-init?token=exp_gnhj97wxh4yknssk18k54afy&_v=7"></script>
     <!-- Ours Pixel Code -->
     <script>
-      // Copy/paste the code from the pixel code section of the website
+      "use strict";(()=> {var e=function e(i){var o;var _r=function r(){for(var _len=arguments.length,t=new Array(_len),_key=0;_key<_len;_key++){t[_key]=arguments[_key]}_r.queue.push(t),i==null||i()};return _r.queue=((o=window.ours)==null?void 0:o.queue)||[],_r.version="1.0",_r.getVisitorId=()=> {throw new Error("Ours SDK not initialized")},_r.getSessionId=()=> {throw new Error("Ours SDK not initialized")},window.ours=_r,window.ours_data=window.ours_data||{},window.oursLayer=window.oursLayer||[],_r};var s="https://laprise-cdn.oursprivacy.com/main.js";function n(i){if(!window.ours){e();var r=document.createElement("script");r.async=!0,r.src=i;var o=document.getElementsByTagName("script")[0];o&&o.parentNode&&o.parentNode.insertBefore(r,o)}}n(s)})();
+      ours('init', 'nsc2v53j2kxjlggv8qwvw6yv', {"track_web_events":true});
     </script>
     <!-- End Ours Pixel Code -->
   </head>
