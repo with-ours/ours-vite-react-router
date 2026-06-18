@@ -6,6 +6,7 @@
 		"dev": "vite --open --host",
 		"lint": "biome check --write .",
 		"type-check": "tsc --noEmit",
+		"build": "vite build",
 		"test": "vitest",
 		"test:ci": "vitest run --coverage --bail 1"
 	},
