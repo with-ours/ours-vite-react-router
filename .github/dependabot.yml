@@ -7,6 +7,7 @@
 
 version: 2
 updates:
+
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
@@ -43,13 +44,9 @@ updates:
       prefix: "fix"
       prefix-development: "chore"
     groups:
-      dev-dependencies:
-        dependency-type: "development"
-        update-types:
-          - "minor"
-          - "patch"
-      prod-minor-patch:
-        dependency-type: "production"
+      all-deps:
+        patterns:
+          - "*"
         update-types:
           - "minor"
           - "patch"
