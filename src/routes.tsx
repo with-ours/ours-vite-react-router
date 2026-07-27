@@ -1,4 +1,4 @@
-import type { RouteObject } from "react-router-dom";
+import type { RouteObject } from "react-router";
 import { Layout } from "./components/Layout";
 import AboutPage from "./pages/about";
 import CmpPage from "./pages/cmp";

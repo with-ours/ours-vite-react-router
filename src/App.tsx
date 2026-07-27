@@ -1,6 +1,6 @@
 import type { FC } from "react";
 import { memo } from "react";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router";
 import { AnalyticsProvider } from "./providers/analytics-provider";
 import { routes } from "./routes";
 

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 import { TrackEventButton } from "../components/TrackEventButton";
 import "../styles.css";
 
