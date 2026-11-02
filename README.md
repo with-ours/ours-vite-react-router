@@ -75,11 +75,11 @@ import ours from "ours-web-sdk";
 import { useEffect } from "react";
 
 export function AnalyticsProvider() {
-  useEffect(() => {
-    ours.init('YOUR_CDP_TOKEN', { track_web_events: true });
-  }, []);
+	useEffect(() => {
+		ours.init("YOUR_CDP_TOKEN", { track_web_events: true });
+	}, []);
 
-  return null;
+	return null;
 }
 ```
 
@@ -90,12 +90,12 @@ And render it at the top of your app:
 import { AnalyticsProvider } from "./providers/analytics-provider";
 
 export function App() {
-  return (
-    <>
-      <AnalyticsProvider />
-      <RouterProvider router={router} />
-    </>
-  );
+	return (
+		<>
+			<AnalyticsProvider />
+			<RouterProvider router={router} />
+		</>
+	);
 }
 ```
 
@@ -104,7 +104,7 @@ Track events from any component:
 ```tsx
 import ours from "ours-web-sdk";
 
-ours.track('button_click', { location: 'homepage' });
+ours.track("button_click", { location: "homepage" });
 ```
 
 ## Getting Started
